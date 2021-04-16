@@ -21,6 +21,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+  text-align: center;
 }
 
 .obal {
@@ -31,3 +32,137 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+.menu {
+  margin: 0;
+
+}
+.menicko {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 60%;
+  margin-left: 10%;
+  padding: 0;
+  color: #25133d;
+}
+
+li {
+  list-style: none;
+  margin-left: 0;
+  color: #25133d;
+}
+
+.logo {
+  font-weight: 700;
+  padding: 30px 20px;
+
+}
+
+.odkaz a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  color: #25133d;
+  padding: 30px 20px;
+}
+
+.odkaz a:active,
+.odkaz a:focus,
+.odkaz a:hover {
+  color: #e5e5e5;
+  background-color: #25133d;
+}
+
+.banner {
+  background-image: url(./images/pozadi.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 0 0 40px;
+  position: relative;
+}
+
+.text {
+  text-align: left ;
+  color: #e5e5e5;
+  margin:50px 0;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+
+.text p {
+  font-weight: 300;
+  font-size: 36px;
+  margin: 20px 0 40px 0;
+}
+
+.butony {
+  display: flex;
+  flex-direction: row;
+}
+
+.butony a {
+  padding: 15px 30px;
+  color: #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.butony a:active,
+.butony a:focus,
+.butony a:hover {
+  background-color: #48418e;
+}
+
+#tlapka {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.sloupce_text {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 40px 80px 40px;
+  justify-content: space-between;
+}
+
+.sloupec {
+  flex-basis: calc((100% - 80px)/3);
+}
+
+.sloupec h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #48418e;
+
+}
+.sloupec img {
+  max-width: 25%;
+}
+
+footer {
+  background-color: #25133d;
+  color: #e5e5e5;
+  padding: 16px;
+}
+
+footer p {
+  margin: 0;
+}
